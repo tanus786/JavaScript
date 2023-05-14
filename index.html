@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>JavaScript</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero corrupti aliquid eligendi. Exercitationem quaerat nihil, earum vel ea quasi eos aliquam dolorum! Eius autem iure dignissimos non, repellendus doloribus id.</p>
+    <h1 id="container"></h1>
+    <h2 id="con" style="display: none;">My clg name is abesit</h2>
+    <button onclick="change()">Change</button>
+    <script>
+        function change(){
+            var  abc = document.getElementById("con")
+            abc.innerHTML=  "Chutiya college"
+            abc.style.display = "block"
+            abc.style.color= "red"
+            abc.style.backgroundColor="yellow"
+            document.body.style.backgroundColor="blue"
+        }
+    </script>
+
+    <!-- <script>
+        document.getElementById("container").innerHTML = "Dynamic Content"
+    </script> -->
+    <!-- <script>
+        // var nome = prompt('Qual o seu nome?');
+        document.write("<h2>Hello</h2>");
+    </script> -->
+</body>
+</html>
